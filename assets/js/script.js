@@ -16,8 +16,14 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
 });
-
+/**
+ * the main game "loop", called when the script is first loaded
+ * and after the user's answer has been processed
+ */
 function runGame() {
+    // creates two random numbers between 0 - 14 the plus 1 adds to the 0-24 making it 1-25
+    let num1 = math.floor(math.random() * 25) + 1;
+    let num2 = math.floor(math.random() * 25) + 1;
 
 }
 
